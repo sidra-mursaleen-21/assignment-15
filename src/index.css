@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.todoContainer {
+  background-color: #ffdcab;
+  border-radius: 20px;
+  height: 500px;
+  width: 800px;
+  padding: 35px 20px;
+  overflow-y: scroll;
+}
+
+.todoContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.imageContainer {
+  background-color: #f39871;
+  border-radius: 20px;
+  margin: auto;
+  width: 90%;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.imageContainer h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+.inputContainer {
+  margin: auto;
+  width: 80%;
+  height: 250px;
+}
+
+.label {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.input {
+  font-size: 15px;
+  padding-left: 20px;
+  width: 75%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid gray;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.input::placeholder {
+  text-transform: capitalize;
+}
+
+.buttonContainer {
+  padding-right: 50px;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+
+.button {
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: #f39871;
+  font-size: 18px;
+  padding: 8px 15px;
+}
+
+button:nth-child(1) {
+  margin-left: 50px;
+}
+
+.todo {
+  background-color: #f1c19d;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px 80px 30px 30px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.todo h2 {
+  margin-bottom: 10px;
+}
+
+.todo p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.todo h2::first-letter {
+  text-transform: uppercase;
+}
+
+.todo p::first-letter {
+  text-transform: uppercase;
+}
+
+.modalContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  border-radius: 20px;
+  background-color: #f1c19d;
+  width: 350px;
+  height: 380px;
+  padding: 20px 40px;
+}
+
+.changeInput {
+  margin: 20px 0px;
+}
+
+.form {
+  width: 400px;
+  border-radius: 20px;
+  padding: 20px 40px;
+  background-color: #ffdcab;
+}
+
+.form h1 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.formButton {
+  margin-top: 10px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.form p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #ffdcab;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
